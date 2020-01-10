@@ -1,0 +1,17 @@
+# 注册中心的   注册  发现
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://127.0.0.1:8761/eureka
+    register-with-eureka: false
+    fetch-registry: false
+# 当前在节点的名字
+spring:
+  application:
+    name: eureka-server1
+server:
+  port: 8761
+management:
+  endpoint:
+    health:
+      show-details: always

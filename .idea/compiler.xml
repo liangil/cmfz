@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cart" />
+        <module name="cmfz-demo" />
+        <module name="cmfz-liangli" />
+        <module name="product" />
+        <module name="springcloud-server1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cart" target="1.8" />
+      <module name="cmfz-demo" target="1.8" />
+      <module name="cmfz-liangli" target="1.8" />
+      <module name="confserver" target="1.8" />
+      <module name="product" target="1.8" />
+      <module name="springcloud-client" target="1.8" />
+      <module name="springcloud-client1" target="1.8" />
+      <module name="springcloud-client2" target="1.8" />
+      <module name="springcloud-client3" target="1.8" />
+      <module name="springcloud-client4" target="1.8" />
+      <module name="springcloud-server1" target="1.8" />
+      <module name="springcloud-server2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

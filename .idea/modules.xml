@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cart/cart.iml" filepath="$PROJECT_DIR$/cart/cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cmfz.iml" filepath="$PROJECT_DIR$/.idea/cmfz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmfz-demo/cmfz-demo.iml" filepath="$PROJECT_DIR$/cmfz-demo/cmfz-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmfz-liangli/cmfz-liangli.iml" filepath="$PROJECT_DIR$/cmfz-liangli/cmfz-liangli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-server1/springcloud-server1.iml" filepath="$PROJECT_DIR$/springcloud-server1/springcloud-server1.iml" />
+    </modules>
+  </component>
+</project>

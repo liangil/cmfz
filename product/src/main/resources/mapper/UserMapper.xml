@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.ProductCategoryDao">
+    <resultMap id="selectCateGroyId" type="ProductCategory">
+        <id column="category_id" property="categoryId"/>
+        <result column="category_name" property="categoryName"/>
+        <result column="category_type" property="categoryType"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <collection property="list" ofType="ProductInfo">
+            <id column="product_id" property="productId"/>
+            <result column="product_name" property="productName"/>
+            <result column="product_price" property="productPrice"/>
+            <result column="product_stock" property="productStock"/>
+            <result column="product_description" property="productDescription"/>
+            <result column="product_icon" property="productIcon"/>
+            <result column="category_type" property="categoryType"/>
+            <result column="create_time" property="createTime"/>
+            <result column="update_time" property="updateTime"/>
+        </collection>
+    </resultMap>
+    <select id="selectAll" resultMap="selectCateGroyId">
+        select pc.*,pi.*
+		  from product_category pc inner join product_info pi
+			on pc.category_type = pi.category_type
+    </select>
+
+</mapper>
